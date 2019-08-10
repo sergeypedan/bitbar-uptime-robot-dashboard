@@ -4,7 +4,7 @@
 
 This repo has the source code for a plugin that integrates <a href="https://uptimerobot.com" target="_blank" rel="noopener noreferrer">UptimeRobot</a> into BitBar.
 
-![Plugin screenshot](https://raw.githubusercontent.com/sergeypedan/bitbar-uptime-robot-dashboard/master/BitBar%20UptimeRobot%20plugin%20screenshot.png)
+![Plugin screenshot](https://raw.githubusercontent.com/sergeypedan/bitbar-uptime-robot-dashboard/master/screenshot.png)
 
 ## Install
 
