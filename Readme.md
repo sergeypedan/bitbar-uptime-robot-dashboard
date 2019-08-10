@@ -18,15 +18,15 @@ brew cask install bitbar
 ### Manually
 
 1. Add a monitor to UptimeRobot.
-1. Get a *read-only* API key from UptimeRobot (from the <a href="https://uptimerobot.com/dashboard.php#mySettings" target="_blank" rel="noopener noreferrer">Settings page</a>.)
-1. Put your API key into a file `bitbar.conf` in `~/.config/` directory. You can do it from Terminal as follows:
+1. Get a *read-only* API key from your UptimeRobot <a href="https://uptimerobot.com/dashboard.php#mySettings" target="_blank" rel="noopener noreferrer">Settings page</a>.
+1. Put that API key into file `~/.config/bitbar.conf`. You can do it from Terminal as follows:
 
 	```sh
 	echo 'UPTIME_ROBOT_API_KEY = "12345-asdf-7890"' > ~/.config/bitbar.conf
 	```
 
 1. Find your BitBar plugin folder location from BitBar menu.
-1. Save the plugin <a href="https://raw.githubusercontent.com/sergeypedan/bitbar-uptime-robot-dashboard/master/uptime_robot.rb" target="_blank" rel="noopener noreferrer">source code</a> as a text file `uptime_robot.rb` (any file name will work) in your BitBar plugin folder.
+1. Save the plugin <a href="https://raw.githubusercontent.com/sergeypedan/bitbar-uptime-robot-dashboard/master/uptime_robot.rb" target="_blank" rel="noopener noreferrer">source code</a> as a text file in your BitBar plugin folder. Any file name will work, but better name it `uptime_robot.rb` for clarity.
 1. Assign file permissions for that file:
 
 	```sh
