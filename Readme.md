@@ -21,8 +21,8 @@ This assumes you have BitBar already installed.
 	echo 'UPTIME_ROBOT_API_KEY = "12345-asdf-7890"' > ~/.config/bitbar.conf
 	```
 
-1. Save the plugin <a href="https://raw.githubusercontent.com/sergeypedan/bitbar-uptime-robot-dashboard/master/uptime_robot.rb" target="_blank" rel="noopener noreferrer">source code</a> as a text file `uptime_robot.rb` (any file name will work).
-1. Put it into BitBar plugin folder (you can find its location from BitBar menu).
+1. Find your BitBar plugin folder location from BitBar menu.
+1. Save the plugin <a href="https://raw.githubusercontent.com/sergeypedan/bitbar-uptime-robot-dashboard/master/uptime_robot.rb" target="_blank" rel="noopener noreferrer">source code</a> as a text file `uptime_robot.rb` (any file name will work) in your BitBar plugin folder.
 1. Assign file permissions for that file:
 
 	```sh
