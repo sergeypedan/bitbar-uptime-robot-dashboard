@@ -7,6 +7,7 @@
 # <bitbar.author.github>sergeypedan</bitbar.author.github>
 # <bitbar.desc>Lists your UptimeRobot monitors with their statuses to help you instantly check uptime of your websites.</bitbar.desc>
 # <bitbar.dependencies>Ruby 2+</bitbar.dependencies>
+# <bitbar.image>https://raw.githubusercontent.com/sergeypedan/bitbar-uptime-robot-dashboard/master/screenshot.png</bitbar.image>
 # <bitbar.abouturl>https://github.com/sergeypedan/bitbar-uptime-robot-dashboard</bitbar.abouturl>
 
 
