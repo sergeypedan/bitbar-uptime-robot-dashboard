@@ -2,7 +2,7 @@
 
 <a href="https://getbitbar.com" target="_blank" rel="noopener noreferrer">BitBar</a> is a handy tool for MacOS status bar, whose functionality is based on plugins.
 
-This repo holds the source code for another plugin, that integrates <a href="https://uptimerobot.com" target="_blank" rel="noopener noreferrer">UptimeRobot</a> into BitBar.
+This repo has the source code for a plugin that integrates <a href="https://uptimerobot.com" target="_blank" rel="noopener noreferrer">UptimeRobot</a> into BitBar.
 
 ## Install
 
@@ -10,6 +10,7 @@ This assumes you have BitBar already installed.
 
 ### Manually
 
+1. Add a monitor to UptimeRobot.
 1. Get a *read-only* API key from UptimeRobot (from the <a href="https://uptimerobot.com/dashboard.php#mySettings" target="_blank">Settings page</a>.)
 1. Put your API key into a file `bitbar.conf` in `~/.config/` directory. You can do it from Terminal as follows:
 
@@ -26,5 +27,8 @@ This assumes you have BitBar already installed.
 	chmod +x "uptime_robot.rb"
 	```
 
-1. Refresh BitBar — the new plugin should be up and running
-1. Add new monitors to UptimeRobot.
+1. Refresh BitBar from menu — the new plugin should be up and running
+
+### From BitBar site
+
+Not submitted yet
