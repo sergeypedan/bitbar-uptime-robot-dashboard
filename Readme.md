@@ -9,7 +9,11 @@ This repo has the source code for a plugin that integrates <a href="https://upti
 
 ## Install
 
-This assumes you have BitBar already installed.
+This assumes you have BitBar already installed. Otherwise you can install it from the <a href="https://getbitbar.com" target="_blank" rel="noopener noreferrer">website</a> or as Brew cask (better):
+
+```sh
+brew cask install bitbar
+```
 
 ### Manually
 
